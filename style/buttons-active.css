@@ -1,0 +1,29 @@
+.calculator-buttons-row1 button:active {
+    background-color: orange;
+    color: white;
+    transform: scale(0.95);   
+}
+
+.calculator-buttons-row2 button:active {
+    background-color: orange;
+    color: white;
+    transform: scale(0.95);   
+}
+
+.calculator-buttons-row3 button:active {
+    background-color: orange;
+    color: white;
+    transform: scale(0.95); 
+}
+
+.clear:active {
+    background-color: orange;
+    color: white;
+    transform: scale(0.95);
+}
+
+.operator-buttons button:active {
+    background-color: orange;
+    color: white;
+    transform: scale(0.95);
+}

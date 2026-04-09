@@ -1,0 +1,5 @@
+.input-number:focus {
+    transform: scale(1.05);
+    outline: none;
+    transition: transform 0.4s ease-out;
+}

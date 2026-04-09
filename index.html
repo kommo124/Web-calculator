@@ -3,43 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/calculator-buttons.css">
+    <link rel="stylesheet" href="style/buttons-active.css">
+    <link rel="stylesheet" href="style/operator-buttons.css">
+    <link rel="stylesheet" href="style/input-style.css">
+    <link rel="stylesheet" href="style/logo-style.css">
 </head>
 <body>
-    <h3 class="logo">CALCULATOR</h3>
-    <input type="text" class="input-number" id="numberInput">
-    
-    <div class="calculator-container">
-        <div class="number-buttons">
-            <div class="calculator-buttons-row3">
-                <button id="button7">7</button>
-                <button id="button8">8</button>
-                <button id="button9">9</button>
+
+    <div class="calculator-wrapper">
+        <h3 class="logo">CALCULATOR</h3>
+        <input type="text" class="input-number" id="numberInput">
+        <div class="calculator-container">
+            <div class="number-buttons">
+                <div class="calculator-buttons-row3">
+                    <button id="button7">7</button>
+                    <button id="button8">8</button>
+                    <button id="button9">9</button>
+                </div>
+
+                <div class="calculator-buttons-row2">
+                    <button id="button4">4</button>
+                    <button id="button5">5</button>
+                    <button id="button6">6</button>
+                </div>
+
+                <div class="calculator-buttons-row1">
+                    <button id="button1">1</button>
+                    <button id="button2">2</button>
+                    <button id="button3">3</button>
+                </div>
             </div>
 
-            <div class="calculator-buttons-row2">
-                <button id="button4">4</button>
-                <button id="button5">5</button>
-                <button id="button6">6</button>
-            </div>
-
-            <div class="calculator-buttons-row1">
-                <button id="button1">1</button>
-                <button id="button2">2</button>
-                <button id="button3">3</button>
+            <div class="operator-buttons">
+                <button class="plus" id="plus">+</button>
+                <button class="minus" id="minus">-</button>
+                <button class="multiply" id="multiply">*</button>
+                <button class="divide" id="divide">/</button>
+                <button class="ravno" id="ravno">=</button>
             </div>
         </div>
-
-        <div class="operator-buttons">
-            <button class="plus" id="plus">+</button>
-            <button class="minus" id="minus">-</button>
-            <button class="multiply" id="multiply">*</button>
-            <button class="divide" id="divide">/</button>
-            <button class="ravno" id="ravno">=</button>
-        </div>
+        <button class="clear" id="clear">Clear All</button>
     </div>
-    <button class="clear" id="clear">Clear All</button>
     <script src="script/script.js?v=2"></script>
 </body>
 </html>
