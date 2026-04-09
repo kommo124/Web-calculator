@@ -11,7 +11,7 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" title="JavaScript">
 </p>
 
-<img src="images/image.png" width="500">
+
 
 **A simple web calculator using JS, HTML, and CSS.**
 
